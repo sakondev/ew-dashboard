@@ -8,7 +8,7 @@
       "2025-03",
       "2025-04"
     ],
-    "dataSourceNote": "ข้อมูลประมวลผลจากไฟล์ CSV (เพิ่มการเลือกเดือนสำหรับข้อมูลเชิงลึก)"
+    "dataSourceNote": "ข้อมูลประมวลผล (เพิ่ม Filter เดือนใน Branch Analysis)"
   },
   "monthlySalesTrend": [
     {
@@ -45,7 +45,7 @@
           "revenue": 3850.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (เริ่มขายได้แม้ BOM=0)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -53,7 +53,7 @@
           "revenue": 9267.5,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเพิ่มขึ้น อาจหลังเติมสต็อก"
+          "analysis": "ยอดขายเพิ่มขึ้น"
         },
         {
           "monthYear": "2025-03",
@@ -69,7 +69,7 @@
           "revenue": 8250.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเพิ่มขึ้น อาจหลังเติมสต็อก"
+          "analysis": "ยอดขายเพิ่มขึ้น"
         }
       ],
       "isBestSeller": false,
@@ -87,7 +87,7 @@
           "revenue": 12622.5,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (เริ่มขายได้แม้ BOM=0)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -95,7 +95,7 @@
           "revenue": 15180.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเพิ่มขึ้น อาจหลังเติมสต็อก"
+          "analysis": "ยอดขายเพิ่มขึ้น"
         },
         {
           "monthYear": "2025-03",
@@ -129,7 +129,7 @@
           "revenue": 7095.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (เริ่มขายได้แม้ BOM=0)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -153,7 +153,7 @@
           "revenue": 6600.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเพิ่มขึ้น อาจหลังเติมสต็อก"
+          "analysis": "ยอดขายเพิ่มขึ้น"
         }
       ],
       "isBestSeller": false,
@@ -171,7 +171,7 @@
           "revenue": 9322.5,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (เริ่มขายได้แม้ BOM=0)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -187,7 +187,7 @@
           "revenue": 6050.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเพิ่มขึ้น อาจหลังเติมสต็อก"
+          "analysis": "ยอดขายเพิ่มขึ้น"
         },
         {
           "monthYear": "2025-04",
@@ -195,7 +195,7 @@
           "revenue": 6600.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเพิ่มขึ้น อาจหลังเติมสต็อก"
+          "analysis": "ยอดขายเพิ่มขึ้น"
         }
       ],
       "isBestSeller": false,
@@ -213,7 +213,7 @@
           "revenue": 0.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (ไม่มีสต็อกต้นเดือนและไม่มีการขาย)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -221,7 +221,7 @@
           "revenue": 0.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+          "analysis": "ยอดขายเป็นศูนย์"
         },
         {
           "monthYear": "2025-03",
@@ -229,7 +229,7 @@
           "revenue": 0.0,
           "bomStock": 0.0,
           "eomStock": 252.0,
-          "analysis": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+          "analysis": "ยอดขายเป็นศูนย์"
         },
         {
           "monthYear": "2025-04",
@@ -255,7 +255,7 @@
           "revenue": 0.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (ไม่มีสต็อกต้นเดือนและไม่มีการขาย)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -263,7 +263,7 @@
           "revenue": 0.0,
           "bomStock": 0.0,
           "eomStock": 0.0,
-          "analysis": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+          "analysis": "ยอดขายเป็นศูนย์"
         },
         {
           "monthYear": "2025-03",
@@ -271,7 +271,7 @@
           "revenue": 0.0,
           "bomStock": 0.0,
           "eomStock": 228.0,
-          "analysis": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+          "analysis": "ยอดขายเป็นศูนย์"
         },
         {
           "monthYear": "2025-04",
@@ -297,7 +297,7 @@
           "revenue": 23361.25,
           "bomStock": 0.0,
           "eomStock": 349.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (เริ่มขายได้แม้ BOM=0)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -423,7 +423,7 @@
           "revenue": 587.05,
           "bomStock": 0.0,
           "eomStock": 627.0,
-          "analysis": "เดือนแรกของข้อมูลสินค้า (เริ่มขายได้แม้ BOM=0)"
+          "analysis": "เดือนแรกของข้อมูลสินค้า"
         },
         {
           "monthYear": "2025-02",
@@ -1322,13 +1322,13 @@
         "itemCode": "EW-BPM50",
         "itemName": "edel+white Pick Stick M (50 pcs)",
         "monthYear": "2025-02",
-        "issue": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+        "issue": "สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย"
       },
       {
         "itemCode": "EW-BPM50",
         "itemName": "edel+white Pick Stick M (50 pcs)",
         "monthYear": "2025-03",
-        "issue": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+        "issue": "สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย"
       },
       {
         "itemCode": "EW-BPS50",
@@ -1340,13 +1340,13 @@
         "itemCode": "EW-BPS50",
         "itemName": "edel+white Pick Stick S (50 pcs)",
         "monthYear": "2025-02",
-        "issue": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+        "issue": "สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย"
       },
       {
         "itemCode": "EW-BPS50",
         "itemName": "edel+white Pick Stick S (50 pcs)",
         "monthYear": "2025-03",
-        "issue": "ยอดขายเป็นศูนย์ สินค้าหมดสต็อก"
+        "issue": "สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย"
       }
     ]
   },
@@ -1743,79 +1743,2649 @@
     }
   },
   "branchAnalysis": {
-    "overallSalesByBranch": [
-      {
-        "branch": "EMB",
-        "total_revenue": 712753.12,
-        "total_quantity": 1835
-      },
-      {
-        "branch": "MGB",
-        "total_revenue": 305673.01,
-        "total_quantity": 1064
-      },
-      {
-        "branch": "EMQ",
-        "total_revenue": 271704.23,
-        "total_quantity": 808
-      },
-      {
-        "branch": "ESV",
-        "total_revenue": 196279.95,
-        "total_quantity": 601
-      },
-      {
-        "branch": "EW Official",
-        "total_revenue": 195055.0,
-        "total_quantity": 538
-      },
-      {
-        "branch": "RM9",
-        "total_revenue": 180217.85,
-        "total_quantity": 507
-      },
-      {
-        "branch": "TCC",
-        "total_revenue": 165789.33,
-        "total_quantity": 601
-      },
-      {
-        "branch": "SAM",
-        "total_revenue": 135723.1,
-        "total_quantity": 504
-      },
-      {
-        "branch": "LINE",
-        "total_revenue": 100495.0,
-        "total_quantity": 404
-      },
-      {
-        "branch": "Shopee",
-        "total_revenue": 93286.9109,
-        "total_quantity": 297
-      },
-      {
-        "branch": "ฝ่ายขาย",
-        "total_revenue": 53550.0,
-        "total_quantity": 76
-      },
-      {
-        "branch": "Lazada",
-        "total_revenue": 49369.6603,
-        "total_quantity": 168
-      },
-      {
-        "branch": "LINE MyShop",
-        "total_revenue": 25994.71,
-        "total_quantity": 75
-      },
-      {
-        "branch": "TikTok",
-        "total_revenue": 6269.0,
-        "total_quantity": 9
-      }
-    ],
-    "monthlySalesTrendByBranch": [
+    "monthlyOverallSalesByBranch": {
+      "all": [
+        {
+          "branch": "EMB",
+          "total_revenue": 712753.12,
+          "total_quantity": 1835
+        },
+        {
+          "branch": "MGB",
+          "total_revenue": 305673.01,
+          "total_quantity": 1064
+        },
+        {
+          "branch": "EMQ",
+          "total_revenue": 271704.23,
+          "total_quantity": 808
+        },
+        {
+          "branch": "ESV",
+          "total_revenue": 196279.95,
+          "total_quantity": 601
+        },
+        {
+          "branch": "EW Official",
+          "total_revenue": 195055.0,
+          "total_quantity": 538
+        },
+        {
+          "branch": "RM9",
+          "total_revenue": 180217.85,
+          "total_quantity": 507
+        },
+        {
+          "branch": "TCC",
+          "total_revenue": 165789.33,
+          "total_quantity": 601
+        },
+        {
+          "branch": "SAM",
+          "total_revenue": 135723.1,
+          "total_quantity": 504
+        },
+        {
+          "branch": "LINE",
+          "total_revenue": 100495.0,
+          "total_quantity": 404
+        },
+        {
+          "branch": "Shopee",
+          "total_revenue": 93286.9109,
+          "total_quantity": 297
+        },
+        {
+          "branch": "ฝ่ายขาย",
+          "total_revenue": 53550.0,
+          "total_quantity": 76
+        },
+        {
+          "branch": "Lazada",
+          "total_revenue": 49369.6603,
+          "total_quantity": 168
+        },
+        {
+          "branch": "LINE MyShop",
+          "total_revenue": 25994.71,
+          "total_quantity": 75
+        },
+        {
+          "branch": "TikTok",
+          "total_revenue": 6269.0,
+          "total_quantity": 9
+        }
+      ],
+      "2025-01": [
+        {
+          "branch": "EMB",
+          "total_revenue": 161879.57,
+          "total_quantity": 508
+        },
+        {
+          "branch": "EMQ",
+          "total_revenue": 85398.55,
+          "total_quantity": 285
+        },
+        {
+          "branch": "MGB",
+          "total_revenue": 74489.35,
+          "total_quantity": 272
+        },
+        {
+          "branch": "EW Official",
+          "total_revenue": 53080.0,
+          "total_quantity": 162
+        },
+        {
+          "branch": "TCC",
+          "total_revenue": 47382.79,
+          "total_quantity": 172
+        },
+        {
+          "branch": "ESV",
+          "total_revenue": 47350.1,
+          "total_quantity": 173
+        },
+        {
+          "branch": "RM9",
+          "total_revenue": 38534.9,
+          "total_quantity": 181
+        },
+        {
+          "branch": "SAM",
+          "total_revenue": 33026.45,
+          "total_quantity": 166
+        },
+        {
+          "branch": "LINE",
+          "total_revenue": 25284.0,
+          "total_quantity": 64
+        },
+        {
+          "branch": "Shopee",
+          "total_revenue": 22242.4203,
+          "total_quantity": 87
+        },
+        {
+          "branch": "Lazada",
+          "total_revenue": 19821.77,
+          "total_quantity": 52
+        },
+        {
+          "branch": "LINE MyShop",
+          "total_revenue": 13069.0,
+          "total_quantity": 28
+        },
+        {
+          "branch": "TikTok",
+          "total_revenue": 1424.0,
+          "total_quantity": 5
+        }
+      ],
+      "2025-02": [
+        {
+          "branch": "EMB",
+          "total_revenue": 191171.25,
+          "total_quantity": 515
+        },
+        {
+          "branch": "MGB",
+          "total_revenue": 79739.91,
+          "total_quantity": 286
+        },
+        {
+          "branch": "RM9",
+          "total_revenue": 65985.3,
+          "total_quantity": 137
+        },
+        {
+          "branch": "EMQ",
+          "total_revenue": 59149.8,
+          "total_quantity": 164
+        },
+        {
+          "branch": "EW Official",
+          "total_revenue": 50796.0,
+          "total_quantity": 128
+        },
+        {
+          "branch": "TCC",
+          "total_revenue": 49908.29,
+          "total_quantity": 153
+        },
+        {
+          "branch": "ESV",
+          "total_revenue": 46290.65,
+          "total_quantity": 127
+        },
+        {
+          "branch": "SAM",
+          "total_revenue": 43034.7,
+          "total_quantity": 154
+        },
+        {
+          "branch": "LINE",
+          "total_revenue": 29010.0,
+          "total_quantity": 91
+        },
+        {
+          "branch": "Shopee",
+          "total_revenue": 19624.4203,
+          "total_quantity": 59
+        },
+        {
+          "branch": "Lazada",
+          "total_revenue": 8290.0,
+          "total_quantity": 32
+        },
+        {
+          "branch": "LINE MyShop",
+          "total_revenue": 3690.71,
+          "total_quantity": 13
+        },
+        {
+          "branch": "TikTok",
+          "total_revenue": 225.0,
+          "total_quantity": 1
+        }
+      ],
+      "2025-03": [
+        {
+          "branch": "EMB",
+          "total_revenue": 196188.2,
+          "total_quantity": 470
+        },
+        {
+          "branch": "MGB",
+          "total_revenue": 77304.7,
+          "total_quantity": 253
+        },
+        {
+          "branch": "EMQ",
+          "total_revenue": 69331.6,
+          "total_quantity": 200
+        },
+        {
+          "branch": "ESV",
+          "total_revenue": 53712.95,
+          "total_quantity": 156
+        },
+        {
+          "branch": "EW Official",
+          "total_revenue": 45498.0,
+          "total_quantity": 112
+        },
+        {
+          "branch": "RM9",
+          "total_revenue": 45374.5,
+          "total_quantity": 112
+        },
+        {
+          "branch": "SAM",
+          "total_revenue": 33573.35,
+          "total_quantity": 96
+        },
+        {
+          "branch": "TCC",
+          "total_revenue": 31790.3,
+          "total_quantity": 124
+        },
+        {
+          "branch": "LINE",
+          "total_revenue": 22298.5,
+          "total_quantity": 135
+        },
+        {
+          "branch": "Shopee",
+          "total_revenue": 17599.3902,
+          "total_quantity": 66
+        },
+        {
+          "branch": "Lazada",
+          "total_revenue": 10815.1803,
+          "total_quantity": 43
+        },
+        {
+          "branch": "TikTok",
+          "total_revenue": 4240.0,
+          "total_quantity": 2
+        },
+        {
+          "branch": "LINE MyShop",
+          "total_revenue": 3618.0,
+          "total_quantity": 12
+        },
+        {
+          "branch": "ฝ่ายขาย",
+          "total_revenue": 0.0,
+          "total_quantity": 67
+        }
+      ],
+      "2025-04": [
+        {
+          "branch": "EMB",
+          "total_revenue": 163514.1,
+          "total_quantity": 342
+        },
+        {
+          "branch": "MGB",
+          "total_revenue": 74139.05,
+          "total_quantity": 253
+        },
+        {
+          "branch": "EMQ",
+          "total_revenue": 57824.28,
+          "total_quantity": 159
+        },
+        {
+          "branch": "ฝ่ายขาย",
+          "total_revenue": 53550.0,
+          "total_quantity": 9
+        },
+        {
+          "branch": "ESV",
+          "total_revenue": 48926.25,
+          "total_quantity": 145
+        },
+        {
+          "branch": "EW Official",
+          "total_revenue": 45681.0,
+          "total_quantity": 136
+        },
+        {
+          "branch": "TCC",
+          "total_revenue": 36707.95,
+          "total_quantity": 152
+        },
+        {
+          "branch": "Shopee",
+          "total_revenue": 33820.6801,
+          "total_quantity": 85
+        },
+        {
+          "branch": "RM9",
+          "total_revenue": 30323.15,
+          "total_quantity": 77
+        },
+        {
+          "branch": "SAM",
+          "total_revenue": 26088.6,
+          "total_quantity": 88
+        },
+        {
+          "branch": "LINE",
+          "total_revenue": 23902.5,
+          "total_quantity": 114
+        },
+        {
+          "branch": "Lazada",
+          "total_revenue": 10442.71,
+          "total_quantity": 41
+        },
+        {
+          "branch": "LINE MyShop",
+          "total_revenue": 5617.0,
+          "total_quantity": 22
+        },
+        {
+          "branch": "TikTok",
+          "total_revenue": 380.0,
+          "total_quantity": 1
+        }
+      ]
+    },
+    "monthlyTopProductsPerBranch": {
+      "all": [
+        {
+          "branch": "EMB",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 169400.0,
+              "quantity": 44
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 166600.0,
+              "quantity": 28
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 128901.54,
+              "quantity": 654
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 55146.0,
+              "quantity": 146
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 49939.5,
+              "quantity": 178
+            }
+          ]
+        },
+        {
+          "branch": "EMQ",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 61314.0,
+              "quantity": 306
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 59500.0,
+              "quantity": 10
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 46200.0,
+              "quantity": 12
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 35816.0,
+              "quantity": 180
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 11485.5,
+              "quantity": 34
+            }
+          ]
+        },
+        {
+          "branch": "ESV",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 33935.0,
+              "quantity": 189
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 29750.0,
+              "quantity": 5
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 26950.0,
+              "quantity": 7
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 15015.0,
+              "quantity": 56
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 14234.0,
+              "quantity": 75
+            }
+          ]
+        },
+        {
+          "branch": "EW Official",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 43400.0,
+              "quantity": 70
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 25740.0,
+              "quantity": 117
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 24570.0,
+              "quantity": 63
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 19250.0,
+              "quantity": 5
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 12870.0,
+              "quantity": 33
+            }
+          ]
+        },
+        {
+          "branch": "LINE",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 26950.0,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 15920.0,
+              "quantity": 154
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 13962.0,
+              "quantity": 38
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 13080.0,
+              "quantity": 39
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 6765.0,
+              "quantity": 26
+            }
+          ]
+        },
+        {
+          "branch": "LINE MyShop",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 4505.6391,
+              "quantity": 12
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 4036.71,
+              "quantity": 19
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3120.0,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 2640.0,
+              "quantity": 12
+            }
+          ]
+        },
+        {
+          "branch": "Lazada",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 13467.6093,
+              "quantity": 35
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 7752.65,
+              "quantity": 36
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 4165.4,
+              "quantity": 19
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3498.3,
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "branch": "MGB",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 58416.94,
+              "quantity": 327
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 40310.96,
+              "quantity": 242
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 38500.0,
+              "quantity": 10
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 35700.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 31583.75,
+              "quantity": 120
+            }
+          ]
+        },
+        {
+          "branch": "RM9",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 47600.0,
+              "quantity": 8
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 30800.0,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 20724.0,
+              "quantity": 107
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 16720.0,
+              "quantity": 62
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 14137.5,
+              "quantity": 42
+            }
+          ]
+        },
+        {
+          "branch": "SAM",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 42031.0,
+              "quantity": 217
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 15400.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 12168.0,
+              "quantity": 33
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 11900.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 11132.0,
+              "quantity": 56
+            }
+          ]
+        },
+        {
+          "branch": "Shopee",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 21233.9103,
+              "quantity": 99
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 16793.1585,
+              "quantity": 44
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 10750.0,
+              "quantity": 49
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 7700.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 6936.0,
+              "quantity": 18
+            }
+          ]
+        },
+        {
+          "branch": "TCC",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 23474.04,
+              "quantity": 164
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 23100.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 17627.5,
+              "quantity": 65
+            },
+            {
+              "item_code": "EDW_CF5460",
+              "item_name": "SET edel+white Care Forte & CS5460",
+              "revenue": 15922.5,
+              "quantity": 29
+            },
+            {
+              "item_code": "EDW_CFUF",
+              "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
+              "revenue": 12430.0,
+              "quantity": 23
+            }
+          ]
+        },
+        {
+          "branch": "TikTok",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 1160.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-PO",
+              "item_name": "edel+white Pro-Ortho",
+              "revenue": 450.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 390.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 220.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "ฝ่ายขาย",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 53550.0,
+              "quantity": 21
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 0.0,
+              "quantity": 12
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 0.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_F_EW_WHT12",
+              "item_name": "edel+white Anti-Plaque + Whitening 12 ml.",
+              "revenue": 0.0,
+              "quantity": 37
+            }
+          ]
+        }
+      ],
+      "2025-01": [
+        {
+          "branch": "EMB",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 47600.0,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 30946.54,
+              "quantity": 154
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 26950.0,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 11110.0,
+              "quantity": 53
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 8385.0,
+              "quantity": 33
+            }
+          ]
+        },
+        {
+          "branch": "EMQ",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 19030.0,
+              "quantity": 94
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 17850.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 15400.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 13750.0,
+              "quantity": 72
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 4251.0,
+              "quantity": 12
+            }
+          ]
+        },
+        {
+          "branch": "ESV",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 10560.0,
+              "quantity": 50
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "EDW_CFUF",
+              "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
+              "revenue": 4922.5,
+              "quantity": 9
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 3740.0,
+              "quantity": 14
+            }
+          ]
+        },
+        {
+          "branch": "EW Official",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 11780.0,
+              "quantity": 19
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 9240.0,
+              "quantity": 42
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 7020.0,
+              "quantity": 18
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 6380.0,
+              "quantity": 29
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 4680.0,
+              "quantity": 12
+            }
+          ]
+        },
+        {
+          "branch": "LINE",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3510.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3120.0,
+              "quantity": 9
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 2860.0,
+              "quantity": 16
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 1375.0,
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "branch": "LINE MyShop",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 2420.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 1500.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 1194.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 1016.0,
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "branch": "Lazada",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 5460.0,
+              "quantity": 14
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 2192.0,
+              "quantity": 10
+            },
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 1860.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 1758.3,
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "branch": "MGB",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 21285.0,
+              "quantity": 101
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 9900.0,
+              "quantity": 62
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 7040.0,
+              "quantity": 26
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "RM9",
+          "topProducts": [
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 7342.5,
+              "quantity": 27
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 5142.5,
+              "quantity": 19
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 4323.0,
+              "quantity": 22
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "SAM",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 10681.0,
+              "quantity": 50
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 6633.0,
+              "quantity": 33
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3822.0,
+              "quantity": 10
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 3781.25,
+              "quantity": 14
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 1897.5,
+              "quantity": 7
+            }
+          ]
+        },
+        {
+          "branch": "Shopee",
+          "topProducts": [
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 7480.0,
+              "quantity": 34
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 5421.88,
+              "quantity": 14
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 5245.42,
+              "quantity": 24
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 1073.1203,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-FTGR",
+              "item_name": "edel+white Easy Tape (Caipirinha)",
+              "revenue": 796.0,
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "branch": "TCC",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 15400.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 6171.04,
+              "quantity": 33
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 4922.5,
+              "quantity": 18
+            },
+            {
+              "item_code": "EDW_CF5460",
+              "item_name": "SET edel+white Care Forte & CS5460",
+              "revenue": 3300.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "EDW_WH5460",
+              "item_name": "SET edel+white Anti-Plaque + Whitening & CS5460",
+              "revenue": 2722.5,
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "branch": "TikTok",
+          "topProducts": [
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 390.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 390.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-PO",
+              "item_name": "edel+white Pro-Ortho",
+              "revenue": 225.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 220.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-FTGR",
+              "item_name": "edel+white Easy Tape (Caipirinha)",
+              "revenue": 199.0,
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "2025-02": [
+        {
+          "branch": "EMB",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 53900.0,
+              "quantity": 14
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 37994.0,
+              "quantity": 193
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 29750.0,
+              "quantity": 5
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 18739.5,
+              "quantity": 50
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 11866.25,
+              "quantity": 44
+            }
+          ]
+        },
+        {
+          "branch": "EMQ",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 23800.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 13365.0,
+              "quantity": 67
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 5258.0,
+              "quantity": 24
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 3850.0,
+              "quantity": 14
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 1891.5,
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "branch": "ESV",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 11900.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 6314.0,
+              "quantity": 34
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 4251.0,
+              "quantity": 14
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 4192.5,
+              "quantity": 11
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 3927.0,
+              "quantity": 19
+            }
+          ]
+        },
+        {
+          "branch": "EW Official",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 9920.0,
+              "quantity": 16
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 7800.0,
+              "quantity": 20
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 7700.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 6160.0,
+              "quantity": 28
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "LINE",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 7480.0,
+              "quantity": 36
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 4290.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 2730.0,
+              "quantity": 8
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 2587.0,
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "branch": "LINE MyShop",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 1093.7594,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 862.71,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 620.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 496.2406,
+              "quantity": 2
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 398.0,
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "branch": "Lazada",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 2340.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-PO",
+              "item_name": "edel+white Pro-Ortho",
+              "revenue": 1545.0,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 1470.84,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 620.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 557.16,
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "branch": "MGB",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 12854.94,
+              "quantity": 71
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 11248.96,
+              "quantity": 60
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 10848.75,
+              "quantity": 43
+            },
+            {
+              "item_code": "EDW_CFUF",
+              "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
+              "revenue": 7150.0,
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "branch": "RM9",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 23800.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 6732.0,
+              "quantity": 36
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 5343.0,
+              "quantity": 17
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 4262.5,
+              "quantity": 16
+            }
+          ]
+        },
+        {
+          "branch": "SAM",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 15004.0,
+              "quantity": 81
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3802.5,
+              "quantity": 10
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 2626.25,
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "branch": "Shopee",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 4741.42,
+              "quantity": 22
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3005.6394,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 2340.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 1844.3609,
+              "quantity": 7
+            }
+          ]
+        },
+        {
+          "branch": "TCC",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 7700.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 7546.0,
+              "quantity": 47
+            },
+            {
+              "item_code": "EDW_CFUF",
+              "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
+              "revenue": 5830.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "EDW_CF5460",
+              "item_name": "SET edel+white Care Forte & CS5460",
+              "revenue": 4922.5,
+              "quantity": 9
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 3740.0,
+              "quantity": 14
+            }
+          ]
+        },
+        {
+          "branch": "TikTok",
+          "topProducts": [
+            {
+              "item_code": "P_EW-PO",
+              "item_name": "edel+white Pro-Ortho",
+              "revenue": 225.0,
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "2025-03": [
+        {
+          "branch": "EMB",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 59500.0,
+              "quantity": 10
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 43670.0,
+              "quantity": 229
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 42350.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 19149.0,
+              "quantity": 70
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 6737.5,
+              "quantity": 25
+            }
+          ]
+        },
+        {
+          "branch": "EMQ",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 17644.0,
+              "quantity": 85
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 15400.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 11900.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 9196.0,
+              "quantity": 46
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3510.0,
+              "quantity": 14
+            }
+          ]
+        },
+        {
+          "branch": "ESV",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 7964.0,
+              "quantity": 50
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 4771.25,
+              "quantity": 18
+            },
+            {
+              "item_code": "EDW_CFUF",
+              "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
+              "revenue": 4400.0,
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "branch": "EW Official",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 12400.0,
+              "quantity": 20
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 5720.0,
+              "quantity": 26
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 4290.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "LINE",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 7700.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 4290.0,
+              "quantity": 17
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3330.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 2671.5,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 2500.0,
+              "quantity": 87
+            }
+          ]
+        },
+        {
+          "branch": "LINE MyShop",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 1170.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 1100.0,
+              "quantity": 5
+            },
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 620.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 390.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 338.0,
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "branch": "Lazada",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 2560.8,
+              "quantity": 12
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 2547.6093,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-FT70",
+              "item_name": "edel+white Easy Tape (Mint)",
+              "revenue": 1544.24,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 1018.1410000000001,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-FTGR",
+              "item_name": "edel+white Easy Tape (Caipirinha)",
+              "revenue": 776.1,
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "branch": "MGB",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 15642.0,
+              "quantity": 99
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 11900.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 8882.5,
+              "quantity": 33
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 6710.0,
+              "quantity": 37
+            }
+          ]
+        },
+        {
+          "branch": "RM9",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 17850.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 4950.0,
+              "quantity": 27
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 4602.0,
+              "quantity": 14
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 4042.5,
+              "quantity": 15
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "SAM",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 10725.0,
+              "quantity": 59
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 7700.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 1443.0,
+              "quantity": 5
+            },
+            {
+              "item_code": "P_EW-PO",
+              "item_name": "edel+white Pro-Ortho",
+              "revenue": 1316.25,
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "branch": "Shopee",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 5729.3902,
+              "quantity": 27
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 2671.8797,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 2480.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 2189.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 1623.1203,
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "branch": "TCC",
+          "topProducts": [
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 5183.75,
+              "quantity": 19
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 3927.0,
+              "quantity": 39
+            },
+            {
+              "item_code": "EDW_CFUF",
+              "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
+              "revenue": 3850.0,
+              "quantity": 7
+            },
+            {
+              "item_code": "EDW_WHUF",
+              "item_name": "SET edel+white Anti-Plaque + Whitening & UltraSoft Flosserbrush",
+              "revenue": 3300.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "EDW_CF5460",
+              "item_name": "SET edel+white Care Forte & CS5460",
+              "revenue": 2750.0,
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "branch": "TikTok",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 390.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "ฝ่ายขาย",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 0.0,
+              "quantity": 12
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 0.0,
+              "quantity": 12
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 0.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_F_EW_WHT12",
+              "item_name": "edel+white Anti-Plaque + Whitening 12 ml.",
+              "revenue": 0.0,
+              "quantity": 37
+            }
+          ]
+        }
+      ],
+      "2025-04": [
+        {
+          "branch": "EMB",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 46200.0,
+              "quantity": 12
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 29750.0,
+              "quantity": 5
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 24589.5,
+              "quantity": 64
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 16291.0,
+              "quantity": 78
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 14410.0,
+              "quantity": 71
+            }
+          ]
+        },
+        {
+          "branch": "EMQ",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 15400.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 11275.0,
+              "quantity": 60
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 7612.0,
+              "quantity": 38
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-Refill-DC",
+              "item_name": "edel+white Dual Clean Refill (2 pcs)",
+              "revenue": 3540.0,
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "branch": "ESV",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 9097.0,
+              "quantity": 55
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 7700.0,
+              "quantity": 2
+            },
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 4510.0,
+              "quantity": 23
+            },
+            {
+              "item_code": "EDW_WHUF",
+              "item_name": "SET edel+white Anti-Plaque + Whitening & UltraSoft Flosserbrush",
+              "revenue": 4400.0,
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "branch": "EW Official",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US-P3",
+              "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
+              "revenue": 9300.0,
+              "quantity": 15
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 5460.0,
+              "quantity": 14
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 4620.0,
+              "quantity": 21
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 3300.0,
+              "quantity": 15
+            }
+          ]
+        },
+        {
+          "branch": "LINE",
+          "topProducts": [
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 5035.0,
+              "quantity": 27
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3900.0,
+              "quantity": 11
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3490.5,
+              "quantity": 9
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 3080.0,
+              "quantity": 15
+            }
+          ]
+        },
+        {
+          "branch": "LINE MyShop",
+          "topProducts": [
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 2340.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 880.0,
+              "quantity": 4
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 798.1203,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 741.8797,
+              "quantity": 2
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 398.0,
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "branch": "Lazada",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3120.0,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 1962.71,
+              "quantity": 9
+            },
+            {
+              "item_code": "EW-WF40",
+              "item_name": "edel+white Woven Floss | Cinnamon Mint",
+              "revenue": 1791.0,
+              "quantity": 9
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 1320.0,
+              "quantity": 6
+            },
+            {
+              "item_code": "P_EW-FT70",
+              "item_name": "edel+white Easy Tape (Mint)",
+              "revenue": 796.0,
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "branch": "MGB",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 17850.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 12452.0,
+              "quantity": 83
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 8635.0,
+              "quantity": 56
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 4812.5,
+              "quantity": 18
+            },
+            {
+              "item_code": "P_EW-GUM75",
+              "item_name": "edel+white Care Forte 75 ml.",
+              "revenue": 3861.0,
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "branch": "RM9",
+          "topProducts": [
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 11550.0,
+              "quantity": 3
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 4719.0,
+              "quantity": 22
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3432.0,
+              "quantity": 9
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 2667.5,
+              "quantity": 10
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 1309.0,
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "branch": "SAM",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 5621.0,
+              "quantity": 27
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 3100.5,
+              "quantity": 8
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 2708.75,
+              "quantity": 10
+            },
+            {
+              "item_code": "EW-CC",
+              "item_name": "edel+white CleanCurl 3D",
+              "revenue": 2145.0,
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "branch": "Shopee",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 5950.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 5693.7594,
+              "quantity": 15
+            },
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 5517.6801,
+              "quantity": 26
+            },
+            {
+              "item_code": "PEW-WJ180",
+              "item_name": "edel+white FlosserPik",
+              "revenue": 3850.0,
+              "quantity": 1
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 3055.0,
+              "quantity": 14
+            }
+          ]
+        },
+        {
+          "branch": "TCC",
+          "topProducts": [
+            {
+              "item_code": "P_EW-US",
+              "item_name": "edel+white UltraSoft Flosserbrush",
+              "revenue": 5830.0,
+              "quantity": 45
+            },
+            {
+              "item_code": "EDW_CF5460",
+              "item_name": "SET edel+white Care Forte & CS5460",
+              "revenue": 4950.0,
+              "quantity": 9
+            },
+            {
+              "item_code": "P_EW-INT",
+              "item_name": "edel+white Intensive Flosserbrush",
+              "revenue": 4818.0,
+              "quantity": 37
+            },
+            {
+              "item_code": "EDW_WH5460",
+              "item_name": "SET edel+white Anti-Plaque + Whitening & CS5460",
+              "revenue": 3850.0,
+              "quantity": 7
+            },
+            {
+              "item_code": "P_EW-SE",
+              "item_name": "edel+white Stain Eraser",
+              "revenue": 3781.25,
+              "quantity": 14
+            }
+          ]
+        },
+        {
+          "branch": "TikTok",
+          "topProducts": [
+            {
+              "item_code": "P_EW-TW75",
+              "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
+              "revenue": 380.0,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "branch": "ฝ่ายขาย",
+          "topProducts": [
+            {
+              "item_code": "EW-SG8PLUS",
+              "item_name": "edel+white Sonic Generation 8+",
+              "revenue": 53550.0,
+              "quantity": 9
+            }
+          ]
+        }
+      ]
+    },
+    "trendData": [
       {
         "branch": "EMB",
         "monthlyData": [
@@ -2156,492 +4726,6 @@
           }
         ]
       }
-    ],
-    "topProductsPerBranch": [
-      {
-        "branch": "EMB",
-        "topProducts": [
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 169400.0,
-            "quantity": 44
-          },
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 166600.0,
-            "quantity": 28
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 128901.54,
-            "quantity": 654
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 55146.0,
-            "quantity": 146
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 49939.5,
-            "quantity": 178
-          }
-        ]
-      },
-      {
-        "branch": "EMQ",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 61314.0,
-            "quantity": 306
-          },
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 59500.0,
-            "quantity": 10
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 46200.0,
-            "quantity": 12
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 35816.0,
-            "quantity": 180
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 11485.5,
-            "quantity": 34
-          }
-        ]
-      },
-      {
-        "branch": "ESV",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 33935.0,
-            "quantity": 189
-          },
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 29750.0,
-            "quantity": 5
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 26950.0,
-            "quantity": 7
-          },
-          {
-            "item_code": "EW-CC",
-            "item_name": "edel+white CleanCurl 3D",
-            "revenue": 15015.0,
-            "quantity": 56
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 14234.0,
-            "quantity": 75
-          }
-        ]
-      },
-      {
-        "branch": "EW Official",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US-P3",
-            "item_name": "edel+white UltraSoft Flosserbrush (Pack 3)",
-            "revenue": 43400.0,
-            "quantity": 70
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 25740.0,
-            "quantity": 117
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 24570.0,
-            "quantity": 63
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 19250.0,
-            "quantity": 5
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 12870.0,
-            "quantity": 33
-          }
-        ]
-      },
-      {
-        "branch": "LINE",
-        "topProducts": [
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 26950.0,
-            "quantity": 7
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 15920.0,
-            "quantity": 154
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 13962.0,
-            "quantity": 38
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 13080.0,
-            "quantity": 39
-          },
-          {
-            "item_code": "P_EW-SE",
-            "item_name": "edel+white Stain Eraser",
-            "revenue": 6765.0,
-            "quantity": 26
-          }
-        ]
-      },
-      {
-        "branch": "LINE MyShop",
-        "topProducts": [
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 5950.0,
-            "quantity": 1
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 4505.6391,
-            "quantity": 12
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 4036.71,
-            "quantity": 19
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 3120.0,
-            "quantity": 8
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 2640.0,
-            "quantity": 12
-          }
-        ]
-      },
-      {
-        "branch": "Lazada",
-        "topProducts": [
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 13467.6093,
-            "quantity": 35
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 7752.65,
-            "quantity": 36
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 4165.4,
-            "quantity": 19
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 3850.0,
-            "quantity": 1
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 3498.3,
-            "quantity": 9
-          }
-        ]
-      },
-      {
-        "branch": "MGB",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 58416.94,
-            "quantity": 327
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 40310.96,
-            "quantity": 242
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 38500.0,
-            "quantity": 10
-          },
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 35700.0,
-            "quantity": 6
-          },
-          {
-            "item_code": "P_EW-SE",
-            "item_name": "edel+white Stain Eraser",
-            "revenue": 31583.75,
-            "quantity": 120
-          }
-        ]
-      },
-      {
-        "branch": "RM9",
-        "topProducts": [
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 47600.0,
-            "quantity": 8
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 30800.0,
-            "quantity": 8
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 20724.0,
-            "quantity": 107
-          },
-          {
-            "item_code": "P_EW-SE",
-            "item_name": "edel+white Stain Eraser",
-            "revenue": 16720.0,
-            "quantity": 62
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 14137.5,
-            "quantity": 42
-          }
-        ]
-      },
-      {
-        "branch": "SAM",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 42031.0,
-            "quantity": 217
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 15400.0,
-            "quantity": 4
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 12168.0,
-            "quantity": 33
-          },
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 11900.0,
-            "quantity": 2
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 11132.0,
-            "quantity": 56
-          }
-        ]
-      },
-      {
-        "branch": "Shopee",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 21233.9103,
-            "quantity": 99
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 16793.1585,
-            "quantity": 44
-          },
-          {
-            "item_code": "P_EW-INT",
-            "item_name": "edel+white Intensive Flosserbrush",
-            "revenue": 10750.0,
-            "quantity": 49
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 7700.0,
-            "quantity": 2
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 6936.0,
-            "quantity": 18
-          }
-        ]
-      },
-      {
-        "branch": "TCC",
-        "topProducts": [
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 23474.04,
-            "quantity": 164
-          },
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 23100.0,
-            "quantity": 6
-          },
-          {
-            "item_code": "P_EW-SE",
-            "item_name": "edel+white Stain Eraser",
-            "revenue": 17627.5,
-            "quantity": 65
-          },
-          {
-            "item_code": "EDW_CF5460",
-            "item_name": "SET edel+white Care Forte & CS5460",
-            "revenue": 15922.5,
-            "quantity": 29
-          },
-          {
-            "item_code": "EDW_CFUF",
-            "item_name": "SET edel+white Care Forte & UltraSoft Flosserbrush",
-            "revenue": 12430.0,
-            "quantity": 23
-          }
-        ]
-      },
-      {
-        "branch": "TikTok",
-        "topProducts": [
-          {
-            "item_code": "PEW-WJ180",
-            "item_name": "edel+white FlosserPik",
-            "revenue": 3850.0,
-            "quantity": 1
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 1160.0,
-            "quantity": 3
-          },
-          {
-            "item_code": "P_EW-PO",
-            "item_name": "edel+white Pro-Ortho",
-            "revenue": 450.0,
-            "quantity": 2
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 390.0,
-            "quantity": 1
-          },
-          {
-            "item_code": "P_EW-US",
-            "item_name": "edel+white UltraSoft Flosserbrush",
-            "revenue": 220.0,
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "branch": "ฝ่ายขาย",
-        "topProducts": [
-          {
-            "item_code": "EW-SG8PLUS",
-            "item_name": "edel+white Sonic Generation 8+",
-            "revenue": 53550.0,
-            "quantity": 21
-          },
-          {
-            "item_code": "P_EW-GUM75",
-            "item_name": "edel+white Care Forte 75 ml.",
-            "revenue": 0.0,
-            "quantity": 12
-          },
-          {
-            "item_code": "P_EW-TW75",
-            "item_name": "edel+white Anti-Plaque + Whitening 75 ml.",
-            "revenue": 0.0,
-            "quantity": 6
-          },
-          {
-            "item_code": "P_F_EW_WHT12",
-            "item_name": "edel+white Anti-Plaque + Whitening 12 ml.",
-            "revenue": 0.0,
-            "quantity": 37
-          }
-        ]
-      }
     ]
   },
   "monthlySummaryAnalysis": [
@@ -2910,8 +4994,8 @@
         "ยอดขายรวม เพิ่มขึ้น 3.84%",
         "จำนวนขายรวม ลดลง 13.69%",
         "ประเด็นสต็อกในเดือนปัจจุบัน:",
-        "สินค้าขาดสต็อก: edel+white Pick Stick M (50 pcs) (ยอดขายเป็นศูนย์ สินค้าหมดสต็อก)",
-        "สินค้าขาดสต็อก: edel+white Pick Stick S (50 pcs) (ยอดขายเป็นศูนย์ สินค้าหมดสต็อก)"
+        "สินค้าขาดสต็อก: edel+white Pick Stick M (50 pcs) (สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย)",
+        "สินค้าขาดสต็อก: edel+white Pick Stick S (50 pcs) (สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย)"
       ]
     },
     {
@@ -2929,8 +5013,8 @@
         "ยอดขายรวม ลดลง 5.50%",
         "จำนวนขายรวม ลดลง 0.65%",
         "ประเด็นสต็อกในเดือนปัจจุบัน:",
-        "สินค้าขาดสต็อก: edel+white Pick Stick M (50 pcs) (ยอดขายเป็นศูนย์ สินค้าหมดสต็อก)",
-        "สินค้าขาดสต็อก: edel+white Pick Stick S (50 pcs) (ยอดขายเป็นศูนย์ สินค้าหมดสต็อก)"
+        "สินค้าขาดสต็อก: edel+white Pick Stick M (50 pcs) (สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย)",
+        "สินค้าขาดสต็อก: edel+white Pick Stick S (50 pcs) (สินค้าหมดสต็อก (BOM=0) และไม่มีการขาย)"
       ]
     },
     {
@@ -2954,12 +5038,12 @@
     {
       "name": "อัตราส่วนหมุนเวียนสินค้าคงคลัง (ภาพรวม)",
       "value": "1.10 รอบ",
-      "details": "คำนวณจาก: ยอดขายรวม (จำนวนชิ้น) / สต็อกเฉลี่ยต้นเดือนรวมทุกสินค้า (เฉพาะเดือนที่มีข้อมูล)"
+      "details": "ยอดขายรวม (ชิ้น) / สต็อกเฉลี่ยต้นเดือนรวม"
     },
     {
       "name": "อัตราการขายสินค้าผ่าน (Sell-Through Rate - ภาพรวม)",
       "value": "48.38%",
-      "details": "คำนวณจาก: (ยอดขายรวม (จำนวนชิ้น) / (ยอดขายรวม (จำนวนชิ้น) + สต็อกรวมต้นงวดเดือนแรก)) * 100"
+      "details": "(ยอดขายรวม (ชิ้น) / (ยอดขายรวม (ชิ้น) + สต็อกรวมต้นงวดเดือนแรก)) * 100"
     }
   ]
 }

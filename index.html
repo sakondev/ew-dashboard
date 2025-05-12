@@ -171,13 +171,24 @@
       </h2>
       <div id="momComparisonContainer" class="space-y-6"></div>
     </section>
+
     <section class="card mb-8">
-      <h2 class="text-2xl font-bold text-slate-800 mb-6">
-        การวิเคราะห์รายสาขา
-      </h2>
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-bold text-slate-800">การวิเคราะห์รายสาขา</h2>
+        <div class="filter-container">
+          <label for="branchAnalysisMonthFilter" class="text-sm text-slate-600"
+            >เลือกเดือนสำหรับวิเคราะห์สาขา:</label
+          >
+          <select
+            id="branchAnalysisMonthFilter"
+            class="p-2 border rounded-md bg-white text-sm focus:ring-blue-500 focus:border-blue-500"
+          ></select>
+        </div>
+      </div>
+
       <div class="mb-8">
         <h3 class="text-xl font-semibold text-slate-700 mb-3">
-          ยอดขายรวมตามสาขา
+          ยอดขายรวมตามสาขา (ตามเดือนที่เลือก)
         </h3>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div>
@@ -222,29 +233,33 @@
           </div>
         </div>
       </div>
+
       <div class="mb-8">
         <h3 class="text-xl font-semibold text-slate-700 mb-3">
-          แนวโน้มยอดขายรายเดือนตามสาขา
+          แนวโน้มยอดขายรายเดือนตามสาขา (แสดงทุกเดือน)
         </h3>
-        <div class="mb-4">
+        <div class="mb-4 filter-container">
           <label for="branchTrendFilter" class="mr-2 text-slate-600"
-            >เลือกสาขา:</label
-          ><select
+            >เลือกสาขาสำหรับกราฟแนวโน้ม:</label
+          >
+          <select
             id="branchTrendFilter"
-            class="p-2 border rounded-md bg-white focus:ring-blue-500 focus:border-blue-500"
+            class="p-2 border rounded-md bg-white text-sm focus:ring-blue-500 focus:border-blue-500"
           ></select>
         </div>
         <div class="chart-container">
           <canvas id="monthlySalesTrendByBranchChart"></canvas>
         </div>
       </div>
+
       <div>
         <h3 class="text-xl font-semibold text-slate-700 mb-3">
-          สินค้าขายดี 5 อันดับแรกตามสาขา (มูลค่า)
+          สินค้าขายดี 5 อันดับแรกตามสาขา (ตามเดือนที่เลือก)
         </h3>
         <div id="topProductsPerBranchContainer" class="space-y-6"></div>
       </div>
     </section>
+
     <section class="card mb-8">
       <h2 class="text-xl font-semibold text-slate-700 mb-4">
         การวิเคราะห์สินค้ารายตัว (ภาพรวม)
@@ -482,21 +497,22 @@
     </div>
 
     <script>
-      let fullDashboardData = null; // To store the loaded JSON data globally
-      // Chart instances
+      let fullDashboardData = null;
       let monthlySalesChartInstance,
         monthlyQuantityChartInstance,
         productSalesStockChartInstance,
         overallSalesByBranchChartInstance,
         monthlySalesTrendByBranchChartInstance;
 
-      // DOM Elements
       const productFilterEl = document.getElementById("productFilter");
       const branchTrendFilterEl = document.getElementById("branchTrendFilter");
       const monthlySummaryFilterEl = document.getElementById(
         "monthlySummaryFilter"
       );
       const insightsFilterEl = document.getElementById("insightsFilter");
+      const branchAnalysisMonthFilterEl = document.getElementById(
+        "branchAnalysisMonthFilter"
+      ); // New Filter
 
       function formatCurrency(value) {
         return new Intl.NumberFormat("th-TH", {
@@ -541,7 +557,7 @@
           const response = await fetch("dashboard.json");
           if (!response.ok)
             throw new Error(`HTTP error! status: ${response.status}`);
-          fullDashboardData = await response.json(); // Store data globally
+          fullDashboardData = await response.json();
           populateDashboard(fullDashboardData);
         } catch (error) {
           console.error("Error loading dashboard.json:", error);
@@ -562,7 +578,6 @@
         document.getElementById("activeMonthsCount").textContent =
           data.summary.activeMonths.length;
 
-        // Populate overall charts
         const salesLabels = data.monthlySalesTrend.map((d) => d.monthYear);
         if (monthlySalesChartInstance) monthlySalesChartInstance.destroy();
         monthlySalesChartInstance = new Chart(
@@ -604,34 +619,43 @@
           }
         );
 
-        // Populate filters
         populateMonthFilter(
           monthlySummaryFilterEl,
           data.summary.activeMonths,
           true
-        ); // true for latest month default
+        );
         populateMonthFilter(
           insightsFilterEl,
           data.summary.activeMonths,
           false,
           true
-        ); // false for no default, true for "All Months" option
+        );
+        populateMonthFilter(
+          branchAnalysisMonthFilterEl,
+          data.summary.activeMonths,
+          false,
+          true
+        ); // Populate new filter
 
-        // Initial population of filterable sections
         displaySingleMonthlySummary(data, monthlySummaryFilterEl.value);
         displayInsightsTables(data, insightsFilterEl.value);
+        updateBranchAnalysisView(data, branchAnalysisMonthFilterEl.value); // Initial call for branch analysis
 
-        // Event Listeners for filters
         monthlySummaryFilterEl.addEventListener("change", (e) =>
           displaySingleMonthlySummary(data, e.target.value)
         );
         insightsFilterEl.addEventListener("change", (e) =>
           displayInsightsTables(data, e.target.value)
         );
+        branchAnalysisMonthFilterEl.addEventListener("change", (e) =>
+          updateBranchAnalysisView(data, e.target.value)
+        ); // Event listener for new filter
 
-        // Populate other sections (MoM, Branch, Product, Key Indicators)
         populateMoMComparison(data);
-        populateBranchAnalysis(data);
+        // populateBranchAnalysis(data); // This is now handled by updateBranchAnalysisView and populateBranchTrendChart
+        populateBranchTrendChartFilter(data); // Populate the specific filter for branch trend chart
+        displayBranchSalesTrend(data); // Initial display for branch trend chart
+
         populateProductFilter(data);
         populateKeyIndicators(data);
       }
@@ -642,23 +666,26 @@
         selectLatest = false,
         addAllMonthsOption = false
       ) {
-        selectElement.innerHTML = ""; // Clear existing options
+        selectElement.innerHTML = "";
         if (addAllMonthsOption) {
           const allOption = document.createElement("option");
           allOption.value = "all";
           allOption.textContent = "ทุกเดือน";
           selectElement.appendChild(allOption);
         }
-        months.forEach((month, index) => {
+        months.forEach((month) => {
           const option = document.createElement("option");
           option.value = month;
           option.textContent = month;
           selectElement.appendChild(option);
         });
         if (selectLatest && months.length > 0) {
-          selectElement.value = months[months.length - 1]; // Select the last (latest) month
-        } else if (!addAllMonthsOption && months.length > 0) {
-          selectElement.value = months[0]; // Default to first month if no "All" and not latest
+          selectElement.value = months[months.length - 1];
+        } else if (addAllMonthsOption) {
+          selectElement.value = "all";
+        } // Default to "all" if it exists
+        else if (months.length > 0) {
+          selectElement.value = months[0];
         }
       }
 
@@ -672,7 +699,7 @@
         );
         if (monthData) {
           const monthDiv = document.createElement("div");
-          monthDiv.className = "p-0"; // No extra card, content directly in container
+          monthDiv.className = "p-0";
           let topRevenueHTML = monthData.topSellingByRevenue
             .map((p) => `<li>${p.itemName} (${formatCurrency(p.revenue)})</li>`)
             .join("");
@@ -681,32 +708,21 @@
               (p) => `<li>${p.itemName} (${formatNumber(p.quantity)} ชิ้น)</li>`
             )
             .join("");
-          monthDiv.innerHTML = `
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
-                    <div class="metric-card"><strong>ยอดขายรวม:</strong> ${formatCurrency(
-                      monthData.totalRevenue
-                    )}</div>
-                    <div class="metric-card"><strong>จำนวนขายรวม:</strong> ${formatNumber(
-                      monthData.totalQuantity
-                    )} ชิ้น</div>
-                    <div class="metric-card"><strong>จำนวน SKU ที่ขายได้:</strong> ${formatNumber(
-                      monthData.uniqueProductsSold
-                    )}</div>
-                    <div class="metric-card"><strong>สินค้าหมดสต็อก (BOM):</strong> ${formatNumber(
-                      monthData.productsWithBomStockOut
-                    )} SKU</div>
-                    <div class="metric-card"><strong>สินค้าอาจหมดสต็อก (EOM):</strong> ${formatNumber(
-                      monthData.productsWithEomStockOut
-                    )} SKU</div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 text-sm">
-                    <div><h4 class="font-semibold mb-1">สินค้าขายดี (มูลค่า):</h4><ul class="list-disc list-inside ml-4">${
-                      topRevenueHTML || "<li>ไม่มีข้อมูล</li>"
-                    }</ul></div>
-                    <div><h4 class="font-semibold mb-1">สินค้าขายดี (จำนวน):</h4><ul class="list-disc list-inside ml-4">${
-                      topQuantityHTML || "<li>ไม่มีข้อมูล</li>"
-                    }</ul></div>
-                </div>`;
+          monthDiv.innerHTML = `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm"><div class="metric-card"><strong>ยอดขายรวม:</strong> ${formatCurrency(
+            monthData.totalRevenue
+          )}</div><div class="metric-card"><strong>จำนวนขายรวม:</strong> ${formatNumber(
+            monthData.totalQuantity
+          )} ชิ้น</div><div class="metric-card"><strong>จำนวน SKU ที่ขายได้:</strong> ${formatNumber(
+            monthData.uniqueProductsSold
+          )}</div><div class="metric-card"><strong>สินค้าหมดสต็อก (BOM):</strong> ${formatNumber(
+            monthData.productsWithBomStockOut
+          )} SKU</div><div class="metric-card"><strong>สินค้าอาจหมดสต็อก (EOM):</strong> ${formatNumber(
+            monthData.productsWithEomStockOut
+          )} SKU</div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 text-sm"><div><h4 class="font-semibold mb-1">สินค้าขายดี (มูลค่า):</h4><ul class="list-disc list-inside ml-4">${
+            topRevenueHTML || "<li>ไม่มีข้อมูล</li>"
+          }</ul></div><div><h4 class="font-semibold mb-1">สินค้าขายดี (จำนวน):</h4><ul class="list-disc list-inside ml-4">${
+            topQuantityHTML || "<li>ไม่มีข้อมูล</li>"
+          }</ul></div></div>`;
           container.appendChild(monthDiv);
         } else {
           container.innerHTML =
@@ -715,10 +731,9 @@
       }
 
       function displayInsightsTables(data, selectedMonthOrAll) {
-        let bestSellers = [];
-        let slowMovers = [];
-        let stockIssues = [];
-
+        let bestSellers = [],
+          slowMovers = [],
+          stockIssues = [];
         if (selectedMonthOrAll === "all") {
           bestSellers = data.analysisInsights.bestSellers;
           slowMovers = data.analysisInsights.slowMovers;
@@ -735,13 +750,10 @@
             (issue) => issue.monthYear === selectedMonthOrAll
           );
         }
-
-        const bestSellersTableBody = document.getElementById(
-          "bestSellersTableBody"
-        );
-        bestSellersTableBody.innerHTML = "";
+        const bsBody = document.getElementById("bestSellersTableBody");
+        bsBody.innerHTML = "";
         bestSellers.forEach((p) => {
-          const r = bestSellersTableBody.insertRow();
+          const r = bsBody.insertRow();
           r.innerHTML = `<td class="px-4 py-2 text-sm">${
             p.item_code
           }</td><td class="px-4 py-2 text-sm">${
@@ -752,13 +764,10 @@
             p.metric_quantity
           )} ชิ้น</td>`;
         });
-
-        const slowMoversTableBody = document.getElementById(
-          "slowMoversTableBody"
-        );
-        slowMoversTableBody.innerHTML = "";
+        const smBody = document.getElementById("slowMoversTableBody");
+        smBody.innerHTML = "";
         slowMovers.forEach((p) => {
-          const r = slowMoversTableBody.insertRow();
+          const r = smBody.insertRow();
           r.innerHTML = `<td class="px-4 py-2 text-sm">${
             p.item_code
           }</td><td class="px-4 py-2 text-sm">${
@@ -769,18 +778,16 @@
             parseFloat(p.metric_avg_stock || 0).toFixed(2)
           )}</td>`;
         });
-
-        const stockIssuesTableBody = document.getElementById(
-          "stockIssuesTableBody"
-        );
-        stockIssuesTableBody.innerHTML = "";
+        const siBody = document.getElementById("stockIssuesTableBody");
+        siBody.innerHTML = "";
         stockIssues.forEach((p) => {
-          const r = stockIssuesTableBody.insertRow();
+          const r = siBody.insertRow();
           r.innerHTML = `<td class="px-4 py-2 text-sm">${p.monthYear}</td><td class="px-4 py-2 text-sm">${p.itemCode}</td><td class="px-4 py-2 text-sm">${p.itemName}</td><td class="px-4 py-2 text-sm">${p.issue}</td>`;
         });
       }
 
       function populateMoMComparison(data) {
+        /* ... (MoM logic from previous version - unchanged) ... */
         const momContainer = document.getElementById("momComparisonContainer");
         momContainer.innerHTML = "";
         if (
@@ -832,14 +839,20 @@
         }
       }
 
-      function populateBranchAnalysis(data) {
+      // NEW function to update branch analysis based on month filter
+      function updateBranchAnalysisView(data, selectedMonthKey) {
         if (!data.branchAnalysis) return;
-        const overallSalesByBranchTableBody = document.getElementById(
+
+        // Update Overall Sales by Branch (Table and Chart)
+        const overallSalesDataForMonth =
+          data.branchAnalysis.monthlyOverallSalesByBranch[selectedMonthKey] ||
+          [];
+        const overallSalesTableBody = document.getElementById(
           "overallSalesByBranchTableBody"
         );
-        overallSalesByBranchTableBody.innerHTML = "";
-        data.branchAnalysis.overallSalesByBranch.forEach((b) => {
-          const r = overallSalesByBranchTableBody.insertRow();
+        overallSalesTableBody.innerHTML = "";
+        overallSalesDataForMonth.forEach((b) => {
+          const r = overallSalesTableBody.insertRow();
           r.innerHTML = `<td class="px-4 py-2 text-sm">${
             b.branch
           }</td><td class="px-4 py-2 text-sm">${formatCurrency(
@@ -848,6 +861,7 @@
             b.total_quantity
           )} ชิ้น</td>`;
         });
+
         if (overallSalesByBranchChartInstance)
           overallSalesByBranchChartInstance.destroy();
         overallSalesByBranchChartInstance = new Chart(
@@ -855,15 +869,13 @@
           {
             type: "bar",
             data: {
-              labels: data.branchAnalysis.overallSalesByBranch.map(
-                (b) => b.branch
-              ),
+              labels: overallSalesDataForMonth.map((b) => b.branch),
               datasets: [
                 {
-                  label: "ยอดขายรวมตามสาขา (บาท)",
-                  data: data.branchAnalysis.overallSalesByBranch.map(
-                    (b) => b.total_revenue
-                  ),
+                  label: `ยอดขายรวมตามสาขา (${
+                    selectedMonthKey === "all" ? "ทุกเดือน" : selectedMonthKey
+                  })`,
+                  data: overallSalesDataForMonth.map((b) => b.total_revenue),
                   backgroundColor: "rgba(99, 102, 241, 0.7)",
                 },
               ],
@@ -875,36 +887,27 @@
             },
           }
         );
-        branchTrendFilterEl.innerHTML =
-          '<option value="all">-- ทุกสาขา --</option>';
-        [
-          ...new Set(
-            data.branchAnalysis.monthlySalesTrendByBranch.map((b) => b.branch)
-          ),
-        ]
-          .sort()
-          .forEach((name) => {
-            const o = document.createElement("option");
-            o.value = name;
-            o.textContent = name;
-            branchTrendFilterEl.appendChild(o);
-          });
-        branchTrendFilterEl.addEventListener("change", () =>
-          displayBranchSalesTrend(data)
-        );
-        displayBranchSalesTrend(data); // Initial display
+
+        // Update Top Products per Branch
+        const topProductsDataForMonth =
+          data.branchAnalysis.monthlyTopProductsPerBranch[selectedMonthKey] ||
+          [];
         const topProductsContainer = document.getElementById(
           "topProductsPerBranchContainer"
         );
         topProductsContainer.innerHTML = "";
-        data.branchAnalysis.topProductsPerBranch.forEach((bd) => {
+        topProductsDataForMonth.forEach((branchData) => {
           const d = document.createElement("div");
           d.className = "card p-4";
-          let th = `<h4 class="text-md font-semibold text-slate-700 mb-2">สาขา: ${bd.branch}</h4>`;
-          if (bd.topProducts.length > 0) {
+          let th = `<h4 class="text-md font-semibold text-slate-700 mb-2">สาขา: ${
+            branchData.branch
+          } (${
+            selectedMonthKey === "all" ? "ทุกเดือน" : selectedMonthKey
+          })</h4>`;
+          if (branchData.topProducts && branchData.topProducts.length > 0) {
             th +=
               '<div class="table-responsive max-h-60"><table class="min-w-full divide-y divide-gray-200 text-xs"><thead class="bg-gray-50"><tr><th class="px-2 py-1">สินค้า</th><th class="px-2 py-1">ยอดขาย (บาท)</th><th class="px-2 py-1">จำนวน</th></tr></thead><tbody>';
-            bd.topProducts.forEach((p) => {
+            branchData.topProducts.forEach((p) => {
               th += `<tr><td class="px-2 py-1">${p.item_name} (${
                 p.item_code
               })</td><td class="px-2 py-1">${formatCurrency(
@@ -915,16 +918,40 @@
             });
             th += "</tbody></table></div>";
           } else {
-            th += '<p class="text-sm text-slate-500">ไม่มีข้อมูล</p>';
+            th +=
+              '<p class="text-sm text-slate-500">ไม่มีข้อมูลสินค้าขายดีสำหรับสาขาและเดือนนี้</p>';
           }
           d.innerHTML = th;
           topProductsContainer.appendChild(d);
         });
       }
 
+      function populateBranchTrendChartFilter(data) {
+        // Separated for clarity
+        if (!data.branchAnalysis || !data.branchAnalysis.trendData) return;
+        branchTrendFilterEl.innerHTML =
+          '<option value="all">-- ทุกสาขา --</option>';
+        // Assuming trendData has unique branch names
+        const uniqueBranchesInTrend = [
+          ...new Set(data.branchAnalysis.trendData.map((b) => b.branch)),
+        ];
+        uniqueBranchesInTrend.sort().forEach((name) => {
+          const o = document.createElement("option");
+          o.value = name;
+          o.textContent = name;
+          branchTrendFilterEl.appendChild(o);
+        });
+        branchTrendFilterEl.addEventListener("change", () =>
+          displayBranchSalesTrend(data)
+        );
+      }
+
       function displayBranchSalesTrend(fullData) {
-        const selectedBranch = branchTrendFilterEl.value;
-        const allMonths = fullData.summary.activeMonths.sort();
+        // This function remains for the trend chart
+        if (!fullData.branchAnalysis || !fullData.branchAnalysis.trendData)
+          return;
+        const selectedBranchForTrend = branchTrendFilterEl.value;
+        const allMonthsForTrend = fullData.summary.activeMonths.sort();
         let datasets = [];
         const colors = [
           "rgb(239, 68, 68)",
@@ -933,22 +960,25 @@
           "rgb(245, 158, 11)",
           "rgb(139, 92, 246)",
         ];
-        if (selectedBranch === "all") {
-          fullData.branchAnalysis.monthlySalesTrendByBranch.forEach((bd, i) => {
+
+        const trendDataSource = fullData.branchAnalysis.trendData;
+
+        if (selectedBranchForTrend === "all") {
+          trendDataSource.forEach((bd, i) => {
             const sm = new Map(
               bd.monthlyData.map((d) => [d.monthYear, d.revenue])
             );
             datasets.push({
               label: `ยอดขาย ${bd.branch}`,
-              data: allMonths.map((m) => sm.get(m) || 0),
+              data: allMonthsForTrend.map((m) => sm.get(m) || 0),
               borderColor: colors[i % colors.length],
               tension: 0.1,
               fill: false,
             });
           });
         } else {
-          const bd = fullData.branchAnalysis.monthlySalesTrendByBranch.find(
-            (b) => b.branch === selectedBranch
+          const bd = trendDataSource.find(
+            (b) => b.branch === selectedBranchForTrend
           );
           if (bd) {
             const sm = new Map(
@@ -956,7 +986,7 @@
             );
             datasets.push({
               label: `ยอดขาย ${bd.branch}`,
-              data: allMonths.map((m) => sm.get(m) || 0),
+              data: allMonthsForTrend.map((m) => sm.get(m) || 0),
               borderColor: colors[0],
               tension: 0.1,
               fill: false,
@@ -971,7 +1001,7 @@
             .getContext("2d"),
           {
             type: "line",
-            data: { labels: allMonths, datasets: datasets },
+            data: { labels: allMonthsForTrend, datasets: datasets },
             options: {
               responsive: true,
               maintainAspectRatio: false,
@@ -987,6 +1017,7 @@
       }
 
       function populateProductFilter(data) {
+        /* ... (Product filter logic - unchanged) ... */
         productFilterEl.innerHTML =
           '<option value="all">-- แสดงข้อมูลรวม --</option>';
         data.productsData
@@ -1002,8 +1033,8 @@
         );
         document.getElementById("productDetailView").classList.add("hidden");
       }
-
       function displayProductDetails(fullData, itemCode) {
+        /* ... (Product details display - unchanged) ... */
         const productDetailView = document.getElementById("productDetailView");
         if (itemCode === "all") {
           productDetailView.classList.add("hidden");
@@ -1102,8 +1133,8 @@
           analysisTextContainer.appendChild(p);
         });
       }
-
       function populateKeyIndicators(data) {
+        /* ... (Key indicators logic - unchanged) ... */
         const keyIndicatorsContainer = document.getElementById(
           "keyIndicatorsContainer"
         );
@@ -1115,8 +1146,8 @@
           keyIndicatorsContainer.appendChild(d);
         });
       }
-
       function openTab(event, tabName) {
+        /* ... (Tab logic - unchanged) ... */
         let i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tab-content");
         for (i = 0; i < tabcontent.length; i++) {
